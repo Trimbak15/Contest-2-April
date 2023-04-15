@@ -14,7 +14,7 @@ PrintDeveloperbyMap()
 
 function PrintDeveloperbyForEach() {
     const developers = [];
-    arr.forEach(function(employee) {
+    arr.forEach(function(arr) {
         if (arr.profession === "developer") {
             developers.push(arr.name);
         }
